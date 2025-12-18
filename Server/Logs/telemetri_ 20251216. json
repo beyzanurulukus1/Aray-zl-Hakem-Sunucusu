@@ -1,0 +1,758 @@
+[
+  {
+    "Zaman": "2025-12-16T20:52:43.8147090Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799989,
+    "Boylam": 29.950007399999986,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:31.5253210Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:32.0411820Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:32.5524190Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:33.0666950Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:33.5833570Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:34.0959370Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:34.6080460Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:35.1197800Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:35.6340710Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:36.1486940Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:36.6641190Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:37.1798450Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:37.6865260Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:38.1999890Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.008,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:38.7118950Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.014,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:39.2274290Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.051,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:39.7434520Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.121,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:40.2553560Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.328,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:40.7683060Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799988,
+    "Boylam": 29.95000749999998,
+    "Irtifa": 0.617,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:41.2799190Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799989,
+    "Boylam": 29.950007399999986,
+    "Irtifa": 0.918,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:41.7956440Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799989,
+    "Boylam": 29.950007399999986,
+    "Irtifa": 1.283,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:42.3068680Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799989,
+    "Boylam": 29.950007299999992,
+    "Irtifa": 1.711,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:42.8129730Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799989,
+    "Boylam": 29.950007299999992,
+    "Irtifa": 2.204,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:43.3313270Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799989,
+    "Boylam": 29.950007299999992,
+    "Irtifa": 2.761,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:43.8466060Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.779999000000004,
+    "Boylam": 29.950007199999998,
+    "Irtifa": 3.37,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:44.3540090Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7799994,
+    "Boylam": 29.950006799999993,
+    "Irtifa": 4.007,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:44.8636930Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800007,
+    "Boylam": 29.95000539999999,
+    "Irtifa": 4.643,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:45.3750390Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800032,
+    "Boylam": 29.950002899999998,
+    "Irtifa": 5.274,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:45.8902180Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800068,
+    "Boylam": 29.94999919999999,
+    "Irtifa": 5.899,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:46.3998680Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800114,
+    "Boylam": 29.94999439999999,
+    "Irtifa": 6.519,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:46.9138820Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780017,
+    "Boylam": 29.949988699999988,
+    "Irtifa": 7.137,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:47.4265090Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780023,
+    "Boylam": 29.949982399999993,
+    "Irtifa": 7.757,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:47.9396420Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800293,
+    "Boylam": 29.949976000000003,
+    "Irtifa": 8.373,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:48.4516970Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800357,
+    "Boylam": 29.949969300000003,
+    "Irtifa": 8.992,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:48.9648960Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780042200000004,
+    "Boylam": 29.949962600000003,
+    "Irtifa": 9.613,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:49.4774750Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800488,
+    "Boylam": 29.94995579999998,
+    "Irtifa": 10.234,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:49.9831870Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800554,
+    "Boylam": 29.949948899999992,
+    "Irtifa": 10.856,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:50.4937930Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800621,
+    "Boylam": 29.94994189999998,
+    "Irtifa": 11.478,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:51.0068630Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800688,
+    "Boylam": 29.9499349,
+    "Irtifa": 12.103,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:51.5218220Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800756,
+    "Boylam": 29.949927799999994,
+    "Irtifa": 12.73,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:52.0353830Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780082400000005,
+    "Boylam": 29.949920799999983,
+    "Irtifa": 13.355,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:52.5483220Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800893,
+    "Boylam": 29.949913599999984,
+    "Irtifa": 13.983,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:53.0585710Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7800962,
+    "Boylam": 29.94990649999998,
+    "Irtifa": 14.612,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:53.5718850Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780103000000004,
+    "Boylam": 29.949899400000003,
+    "Irtifa": 15.24,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:54.0891670Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801099,
+    "Boylam": 29.949892200000004,
+    "Irtifa": 15.866,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:54.5986330Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801167,
+    "Boylam": 29.9498851,
+    "Irtifa": 16.491,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:55.1106110Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801236,
+    "Boylam": 29.949877999999995,
+    "Irtifa": 17.116,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:55.6297810Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780130500000006,
+    "Boylam": 29.94987089999999,
+    "Irtifa": 17.743,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:56.1440380Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801373,
+    "Boylam": 29.949863799999985,
+    "Irtifa": 18.366,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:56.6558690Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801441,
+    "Boylam": 29.94985669999998,
+    "Irtifa": 18.985,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:57.1703480Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780151000000004,
+    "Boylam": 29.94984949999998,
+    "Irtifa": 19.608,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:57.6808580Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780157800000005,
+    "Boylam": 29.949842400000005,
+    "Irtifa": 20.229,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:58.1927710Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801647,
+    "Boylam": 29.9498353,
+    "Irtifa": 20.851,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:58.7043450Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801715,
+    "Boylam": 29.949828199999995,
+    "Irtifa": 21.474,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:59.2190150Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7801783,
+    "Boylam": 29.949821199999985,
+    "Irtifa": 22.098,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:53:59.7309170Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780185,
+    "Boylam": 29.94981409999998,
+    "Irtifa": 22.723,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:00.2471300Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780191900000005,
+    "Boylam": 29.949807000000003,
+    "Irtifa": 23.351,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:00.7625240Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780198600000006,
+    "Boylam": 29.949799999999993,
+    "Irtifa": 23.974,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:01.2775930Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802054,
+    "Boylam": 29.949792899999988,
+    "Irtifa": 24.601,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:01.7931890Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802122,
+    "Boylam": 29.949785899999977,
+    "Irtifa": 25.23,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:02.3014990Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780219,
+    "Boylam": 29.949778899999995,
+    "Irtifa": 25.857,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:02.8110360Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780225800000004,
+    "Boylam": 29.94977179999999,
+    "Irtifa": 26.485,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:03.3263390Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780232500000004,
+    "Boylam": 29.94976479999998,
+    "Irtifa": 27.112,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:03.8388020Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780239300000005,
+    "Boylam": 29.949757799999997,
+    "Irtifa": 27.738,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:04.3493270Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802461,
+    "Boylam": 29.949750699999992,
+    "Irtifa": 28.365,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:04.8589930Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802528,
+    "Boylam": 29.949743800000004,
+    "Irtifa": 28.988,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:05.3717350Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802595,
+    "Boylam": 29.949736799999993,
+    "Irtifa": 29.613,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:05.8795340Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802663,
+    "Boylam": 29.949729799999982,
+    "Irtifa": 30.24,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:06.3892270Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780273,
+    "Boylam": 29.9497228,
+    "Irtifa": 30.864,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:06.8950420Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802798,
+    "Boylam": 29.94971579999999,
+    "Irtifa": 31.488,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:07.4026870Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7802865,
+    "Boylam": 29.94970879999998,
+    "Irtifa": 32.112,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:07.9105120Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780293300000004,
+    "Boylam": 29.949701799999996,
+    "Irtifa": 32.736,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:08.4205000Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780300100000005,
+    "Boylam": 29.94969469999999,
+    "Irtifa": 33.362,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:08.9349220Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7803069,
+    "Boylam": 29.94968769999998,
+    "Irtifa": 33.984,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:09.4471250Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7803136,
+    "Boylam": 29.949680600000004,
+    "Irtifa": 34.604,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:09.9596030Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7803204,
+    "Boylam": 29.949673599999993,
+    "Irtifa": 35.228,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:10.4765790Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7803272,
+    "Boylam": 29.94966649999999,
+    "Irtifa": 35.85,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:10.9899060Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780334,
+    "Boylam": 29.949659499999978,
+    "Irtifa": 36.473,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:11.5044890Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780340800000005,
+    "Boylam": 29.949652499999996,
+    "Irtifa": 37.097,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:12.0171830Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780347500000005,
+    "Boylam": 29.949645499999985,
+    "Irtifa": 37.722,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:12.5270600Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7803543,
+    "Boylam": 29.949638500000002,
+    "Irtifa": 38.348,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:13.0456260Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.780361,
+    "Boylam": 29.949631399999998,
+    "Irtifa": 38.976,
+    "Hiz": 25,
+    "Batarya": 80
+  },
+  {
+    "Zaman": "2025-12-16T20:54:13.5535220Z",
+    "TakimNumarasi": 1,
+    "Enlem": 40.7803678,
+    "Boylam": 29.94962449999998,
+    "Irtifa": 39.601,
+    "Hiz": 25,
+    "Batarya": 80
+  }
+]

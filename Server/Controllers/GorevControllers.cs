@@ -1,50 +1,70 @@
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore. Mvc;
 using Koustec.Api.Models;
-using System.Collections.Generic; 
+using Koustec. Api.Services;
+using System. Collections.Generic; 
 using System; 
 using System.Linq;
 
-namespace Koustec.Api.Controllers
+namespace Koustec. Api.Controllers
 {
     [Route("api")]
     [ApiController]
     public class GorevController : ControllerBase
     {
-        // Kilitlenme ve Kamikaze kayıtlarını Server'da tutan in-memory depolama.
-        private static readonly List<KilitlenmeRequest> KilitlenmeKayitlari = new List<KilitlenmeRequest>();
-        private static readonly List<KamikazeRequest> KamikazeKayitlari = new List<KamikazeRequest>();
+        private readonly JsonLogService _jsonLogService;
 
+        // ✅ BİRLEŞTİRİLMİŞ:  Tüm kilitlenme ve kamikaze kayıtlarını tek listede tutuyoruz
+        private static readonly List<KilitlenmeKayiti> KilitlenmeKayitlari = new List<KilitlenmeKayiti>();
 
-        // --- Kilitlenme Bilgisi Gönderme (POST) ---
-        [HttpPost("kilitlenme_bilgisi")] 
-        public IActionResult KilitlenmeBilgisiGonder([FromBody] KilitlenmeRequest request)
+        public GorevController(JsonLogService jsonLogService)
         {
+            _jsonLogService = jsonLogService;
+        }
+
+        // --- GÜNCELLENMIŞ:  Kilitlenme ve Kamikaze Bilgisi Gönderme (POST) ---
+        // Python'un kontrol_merkezi. py'den gelen POST isteğini karşılıyor
+        [HttpPost("kilitlenme_bilgisi")] 
+        public IActionResult KilitlenmeBilgisiGonder([FromBody] KilitlenmeKayiti request)
+        {
+            if (request == null)
+            {
+                return BadRequest("Geçersiz istek.");
+            }
+
+            // Gelen veriyi listeye ekle (Hem kilitlenme hem kamikaze)
             KilitlenmeKayitlari.Add(request);
+            
+            // JSON'a kaydet
+            _jsonLogService.OlayKaydet(request);
+            
             return Ok(); 
         }
 
-        // --- Kamikaze Bilgisi Gönderme (POST) ---
-        [HttpPost("kamikaze_bilgisi")]
-        public IActionResult KamikazeBilgisiGonder([FromBody] KamikazeRequest request)
-        {
-            KamikazeKayitlari.Add(request);
-            return Ok();
-        }
-
-        // --- Kilitlenme Kayıtlarını Alma (GET /api/kilitlenme_kayitlari) ---
-        [HttpGet("kilitlenme_kayitlari")]
+        // --- GÜNCELLENMIŞ:  Tüm Kilitlenme ve Kamikaze Kayıtlarını Alma (GET) ---
+        // React ControlPanel'in istediği endpoint
+        [HttpGet("kilitlenme_bilgisi")]
         public IActionResult GetKilitlenmeKayitlari()
         {
             return Ok(KilitlenmeKayitlari);
         }
 
-        // --- Kamikaze Kayıtlarını Alma (GET /api/kamikaze_kayitlari) ---
+        // --- (İSTEĞE BAĞLI) Sadece Kamikaze Olaylarını Filtrele ---
         [HttpGet("kamikaze_kayitlari")]
         public IActionResult GetKamikazeKayitlari()
         {
-            return Ok(KamikazeKayitlari);
+            // kilitlenmeTuru == 1 olan kayıtları filtrele
+            var kamikazeKayitlari = KilitlenmeKayitlari.Where(k => k.kilitlenmeTuru == 1).ToList();
+            return Ok(kamikazeKayitlari);
         }
-        
+
+        // --- (İSTEĞE BAĞLI) Sadece Kilitlenme Olaylarını Filtrele ---
+        [HttpGet("kilitlenme_kayitlari")]
+        public IActionResult GetOnlyKilitlenmeOlaylari()
+        {
+            // kilitlenmeTuru == 0 olan kayıtları filtrele
+            var kilitlenmeKayitlari = KilitlenmeKayitlari.Where(k => k.kilitlenmeTuru == 0).ToList();
+            return Ok(kilitlenmeKayitlari);
+        }
         
         // --- QR Koordinatı Alma (GET /api/qr_koordinati) ---
         [HttpGet("qr_koordinati")]
@@ -52,22 +72,20 @@ namespace Koustec.Api.Controllers
         {
             var qrKonumu = new QrKoordinatiResponse
             {
-                // Kocaeli/İzmit civarı
-                qrEnlem = 40.78, 
+                qrEnlem = 40.78,
                 qrBoylam = 29.95 
             };
 
             return Ok(qrKonumu); 
         }
 
-        
         // --- Hava Savunma Sistemi Koordinatları Alma (GET /api/hss_koordinatlari) ---
         [HttpGet("hss_koordinatlari")]
         public IActionResult HssKoordinatlariniAl()
         {
             bool hssAktifMi = true; 
 
-            if (!hssAktifMi)
+            if (! hssAktifMi)
             {
                 var bosCevap = new HssKoordinatlariResponse
                 {
@@ -77,7 +95,6 @@ namespace Koustec.Api.Controllers
                 return Ok(bosCevap);
             }
 
-            // HSS aktif ise, koordinatları Kocaeli merkezinin etrafına yerleştir.
             var hssListesi = new List<HssKoordinatBilgisi>
             {
                 new HssKoordinatBilgisi { id = 0, hssEnlem = 40.7810, hssBoylam = 29.9520, hssYaricap = 50 }, 
@@ -95,16 +112,19 @@ namespace Koustec.Api.Controllers
             return Ok(cevap);
         }
 
-        
         // --- Yardımcı Metot: Sunucu Saati ---
         private SunucuSaati GetCurrentSunucuSaati()
-        {
-            DateTime now = DateTime.UtcNow;
-            return new SunucuSaati
-            {
-                gun = now.Day, saat = now.Hour, dakika = now.Minute, 
-                saniye = now.Second, milisaniye = now.Millisecond
-            };
-        }
+{
+    // UTC+3 (Türkiye saati)
+    DateTime now = DateTime.UtcNow. AddHours(3);
+    return new SunucuSaati
+    {
+        gun = now.Day, 
+        saat = now.Hour, 
+        dakika = now.Minute, 
+        saniye = now.Second, 
+        milisaniye = now. Millisecond
+    };
+}
     }
 }

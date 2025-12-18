@@ -32,3 +32,4 @@
 /Users/beyza/Desktop/koustech/Server/obj/Debug/net9.0/Koustech.Api.pdb
 /Users/beyza/Desktop/koustech/Server/obj/Debug/net9.0/Koustech.Api.genruntimeconfig.cache
 /Users/beyza/Desktop/koustech/Server/obj/Debug/net9.0/ref/Koustech.Api.dll
+/Users/beyza/Desktop/koustech/Server/obj/Debug/net9.0/Koustech.Api.sourcelink.json
